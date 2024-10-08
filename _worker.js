@@ -1,11 +1,11 @@
-//REMOVE THIS//import { connect } from 'cloudflare:sockets';
+/******///////////REMOVE THIS/*********/import { connect } from 'cloudflare:sockets';
 // t.me/P_tech2024 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '5c6c0338-5904-4288-a49e-133d4c530fad';
 
-const proxyIPs = ['mtn.ircf.space', 'mkh.ircf.space', 'mci.ircf.space', 'rtl.ircf.space'];
-let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
+/******///////////REMOVE THIS/*********/const proxyIPs = ['mtn.ircf.space', 'mkh.ircf.space', 'mci.ircf.space', 'rtl.ircf.space'];
+/******///////////REMOVE THIS/*********/let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://1.1.1.1/dns-query';
 // (dohURL) list :
